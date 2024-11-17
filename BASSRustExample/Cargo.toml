@@ -1,0 +1,8 @@
+[package]
+name = "BASSRustExample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libloading = "0.8.5"
+sharedlib = "7.0.0"
