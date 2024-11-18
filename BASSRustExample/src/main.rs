@@ -4,7 +4,7 @@ use std::thread::sleep;
 use std::time::Duration;
 #[allow(non_snake_case)]
 #[warn(unused_unsafe)]
-#[link(name="bass", kind = "static")]
+#[link(name="bass", kind = "dylib")]
 extern "C"
 {
     fn BASS_Init(arg: i16, arg: i32, arg: i16, arg: i16, arg: i16) -> bool;
